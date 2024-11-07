@@ -1,0 +1,17 @@
+// Example .scss file
+
+// Import Colors
+@import '/home/RobShan/.cache/wal/colors.scss';
+
+body {
+  background: $background;
+  color: $foreground;
+}
+
+main {
+  background-image: url($wallpaper);
+}
+
+a {
+  color: $color4;
+}
